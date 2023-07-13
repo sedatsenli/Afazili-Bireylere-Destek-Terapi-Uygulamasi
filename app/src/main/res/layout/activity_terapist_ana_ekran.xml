@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".terapist_ana_ekran"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:layout_margin="40dp"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:src="@drawable/bireysel"
+            android:scaleType="fitXY"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasta Ekle"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:src="@drawable/gorev"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Görev Ekle"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:src="@drawable/veri1"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Veri İzle"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</ScrollView>

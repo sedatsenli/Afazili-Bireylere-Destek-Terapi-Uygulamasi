@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HASTA ADI:"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/rhastaAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasta Adı"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HASTA SOYADI:"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rhastaSoyadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasta Soyadı"
+        android:textStyle="normal"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/rhastaEmail"
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:text="E-Mail"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOĞRU SAYISI:"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/rhastaSonuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sonuçlar"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EGZERSİZ ADI:"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/rhastaEgzersiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Egzersiz"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EGZERSİZ TEKRAR SAYISI:"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/rhastaTekrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tekrar"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal"
+        />
+
+    <Button
+        android:id="@+id/rsilButon"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="silButon"
+        android:text="Sil"
+        android:layout_gravity="center"
+        android:background="@drawable/oval_btn2">
+
+    </Button>
+</LinearLayout>

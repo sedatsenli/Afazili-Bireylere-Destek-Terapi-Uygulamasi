@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Terapist_Giris"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:layout_marginTop="80dp">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="201dp"
+            android:layout_height="201dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/doktor1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:boxBackgroundColor="@color/white"
+            app:boxBackgroundMode="outline">
+
+            <EditText
+                android:id="@+id/emailGiris"
+                android:layout_width="370dp"
+                android:layout_height="80dp"
+                android:hint="E-Mail"
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:boxBackgroundColor="@color/white"
+            app:boxBackgroundMode="outline">
+            <EditText
+                android:id="@+id/sifreGiris"
+                android:layout_width="370dp"
+                android:layout_height="80dp"
+                android:inputType="textPassword"
+                android:hint="Şifre"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/girisButonu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="girisButonu"
+            android:text="GİRİŞ YAP" />
+
+        <Button
+            android:id="@+id/kayitEkrani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="kayitEkrani"
+            android:text="KAYIT OLMAK İÇİN TIKLAYIN" />
+    </LinearLayout>
+</ScrollView>

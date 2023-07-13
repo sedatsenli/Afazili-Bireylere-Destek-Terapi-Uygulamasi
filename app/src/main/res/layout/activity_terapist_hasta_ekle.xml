@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".terapist_hasta_ekle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_margin="20dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:src="@drawable/bireysel">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/hastaAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="50px"
+        android:inputType="textPersonName"
+        android:hint="Hasta Adı" />
+
+    <EditText
+        android:id="@+id/hastaSoyadi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="50px"
+        android:inputType="textPersonName"
+        android:hint="Hasta Soyisim" />
+
+    <EditText
+        android:id="@+id/hastaEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="50px"
+        android:inputType="textPersonName"
+        android:hint="Hasta E-Mail" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hastakaydet"
+        android:layout_margin="50px"
+        android:hint="Hasta Ekle">
+
+    </Button>
+
+    </LinearLayout>
+
+</ScrollView>

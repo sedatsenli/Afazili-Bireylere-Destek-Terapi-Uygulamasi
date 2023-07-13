@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "352677630824",
+    "project_id": "bitirme-4f187",
+    "storage_bucket": "bitirme-4f187.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352677630824:android:995ee1209cc431903ebcdd",
+        "android_client_info": {
+          "package_name": "com.emirer.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352677630824-b4as1m1ovstt6gjhgce65ra0cf0krtdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvicPB7f64L94193q-rU7QZfXo7VhISxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352677630824-b4as1m1ovstt6gjhgce65ra0cf0krtdq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
